@@ -15,17 +15,17 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
+  * Average of 93% precision, between low-risk loans and high-risk loans
+  * Accuracy at 94%
+  * Average of 95% recall between low-risk at 100% and high-risk at 89%
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Average at 93% precision, between low-risk at 100% and high-risk at 87%
+  * Accuracy at 100%
+  * Recall at 100%
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Fase positives were more predominant during model 2, but less likely to predict false negatives.
+Model 2 had more true predictions, but neither model achieved 90% or more for precision.
+Therefore, model 2 is prone to predict less false positives.
